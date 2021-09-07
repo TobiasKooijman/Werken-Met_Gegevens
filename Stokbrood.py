@@ -5,11 +5,7 @@ Stokbrood = 2.78
 Aantal_Stokbrood = 2
 Totaal_Stokbrood = (Stokbrood*Aantal_Stokbrood)
 Totaal_Croissant = (Croissant*Aantal_Croissant)
+Totaal = (Totaal_Croissant+Totaal_Stokbrood)
+factuurtext = 'De prijs van '+str(Aantal_Croissant) + ' Croisantjes van '+str(Croissant)+' is '+str(Totaal_Croissant)+' en de prijs van '+str(Aantal_Stokbrood)+' Stokbroden van ' + str(Stokbrood)+' is '+str(Totaal_Stokbrood)+' dus het totale bedrag word '+str(Totaal)
 
-# Prints en shit
-print("Prijs Croissant")
-print(Croissant*Aantal_Croissant)
-print("Prijs Stokbrood:")
-print(Stokbrood*Aantal_Stokbrood)
-print("Totale Bedrag:")
-print(Totaal_Croissant+Totaal_Stokbrood)
+print(factuurtext)
